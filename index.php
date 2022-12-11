@@ -48,25 +48,23 @@
                 value=">"
                 name="right">
             </div>
-            <div>
-                <input 
-                type="submit"
-                id="down-button" 
-                value="v"
-                name="down">
-            </div>
             
             <div>
                 <span class = "light-label">Light</span>
             </div>
             <div>     
-                <label class="switch">
-                    <input type="checkbox" id="togBtn">
-                    <div class="slider round">
-                     <span class="on">ON</span>
-                     <span class="off">OFF</span>
-                    </div>
-                   </label>
+            <label class="switch">
+                    <input 
+                    type="submit"
+                    id="on-button" 
+                    value="ON"
+                    name="on">
+                    <input 
+                    type="submit"
+                    id="off-button" 
+                    value="OFF"
+                    name="off">
+                </label>
             </div>
 </form>
 
